@@ -12,14 +12,12 @@ public class LaserScript : MonoBehaviour {
 
        // Screen.lockCursor = true;
 
-
-
 	}
-	
+ 
 	// Update is called once per frame
 	void Update () {
 
-        if (Input.GetButtonDown("Fire1"))
+        if (Input.GetButtonDown("Fire2"))
         {
             StopCoroutine("FireLaser");
             StartCoroutine("FireLaser");
@@ -30,7 +28,7 @@ public class LaserScript : MonoBehaviour {
     IEnumerator FireLaser() //
     {
         line.enabled = true;
-        while (Input.GetButton("Fire1")) //눌러져 있는 동안
+        while (Input.GetButton("Fire2")) //눌러져 있는 동안
         {
             Ray ray = new Ray(transform.position, transform.forward);
             RaycastHit hit;
@@ -42,7 +40,8 @@ public class LaserScript : MonoBehaviour {
                 line.SetPosition(1, hit.point); //그곳이 끝 점이 된다.
                 if (hit.rigidbody)//rigidbody에 부딪힌다면 그곳에 힘을 가한다.
                 {
-                    hit.rigidbody.AddForceAtPosition(transform.forward * 20, hit.point);
+                   
+                    //hit.rigidbody.AddForceAtPosition(transform.forward * 20, hit.point);
                 }
             }
             else
