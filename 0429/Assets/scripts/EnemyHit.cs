@@ -3,6 +3,8 @@ using System.Collections;
 
 public class EnemyHit : MonoBehaviour {
 
+    public ParticleSystem explosion;
+
 	// Use this for initialization
 	void Start () {
 	
@@ -11,6 +13,7 @@ public class EnemyHit : MonoBehaviour {
         if(col.gameObject.tag == "Bullet"){
             Destroy(gameObject);
             Destroy(col.gameObject); //bullet
+            Instantiate(explosion, transform.position, Quaternion.identity);
         }
     }
 	// Update is called once per frame
