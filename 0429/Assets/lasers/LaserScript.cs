@@ -42,7 +42,7 @@ public class LaserScript : MonoBehaviour {
                 line.SetPosition(1, hit.point); //그곳이 끝 점이 된다.
                 if (hit.rigidbody)//rigidbody에 부딪힌다면 그곳에 힘을 가한다.
                 {
-                    hit.rigidbody.AddForceAtPosition(transform.forward * 5, hit.point);
+                    hit.rigidbody.AddForceAtPosition(transform.forward * 20, hit.point);
                 }
             }
             else
