@@ -91,6 +91,7 @@
     <Compile Include="Assets\scripts\Player_Shoot.cs" />
     <Compile Include="Assets\scripts\Recorder.cs" />
     <Compile Include="Assets\scripts\Reset.cs" />
+    <Compile Include="Assets\scripts\ScoreManager.cs" />
     <Compile Include="Assets\scripts\Spawner.cs" />
     <Compile Include="Assets\scripts\ThirdPersonCamera.cs" />
     <Compile Include="Assets\scripts\playershoot.cs" />
