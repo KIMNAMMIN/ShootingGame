@@ -14,6 +14,7 @@ public class EnemyHit : MonoBehaviour {
             Destroy(gameObject);
             Destroy(col.gameObject); //bullet
             Instantiate(explosion, transform.position, Quaternion.identity);
+            ScoreManager.CurrentScore++;
         }
     }
 	// Update is called once per frame
