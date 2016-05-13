@@ -69,6 +69,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\SimpleParticlePack\Scripts\ParticleTester.cs" />
     <Compile Include="Assets\lasers\LaserScript.cs" />
     <Compile Include="Assets\scripts\Action.cs" />
     <Compile Include="Assets\scripts\Bazooka.cs" />
@@ -77,6 +78,7 @@
     <Compile Include="Assets\scripts\CollectPopsicle.cs" />
     <Compile Include="Assets\scripts\DamageProvider.cs" />
     <Compile Include="Assets\scripts\DamageReceiver.cs" />
+    <Compile Include="Assets\scripts\DestroyParticle.cs" />
     <Compile Include="Assets\scripts\EnemyHit.cs" />
     <Compile Include="Assets\scripts\JoystickToWorld.cs" />
     <Compile Include="Assets\scripts\Karma.cs" />
