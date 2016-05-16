@@ -25,4 +25,4 @@
 ----
 
 현재 FPS 게임을 목표로 구현 중에 있으며, 여러가지 요소 ( 충돌, 파괴, 사운드)들을 채워 나가며, 그래픽스에 대한 전반적인 이해도를 높이고 있습니다. 
-![텍스트](C:\Users\NAMMIN\Desktop\gitrepo\ShootingGame/screenshot.png)
+![텍스트](https://github.com/KIMNAMMIN/ShootingGame/blob/master/screenshot.png)
