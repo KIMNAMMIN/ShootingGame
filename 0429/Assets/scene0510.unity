@@ -1343,6 +1343,7 @@ GameObject:
   - 120: {fileID: 1526408098}
   - 114: {fileID: 1526408097}
   - 114: {fileID: 1526408099}
+  - 114: {fileID: 1526408100}
   m_Layer: 0
   m_Name: GunTip
   m_TagString: Untagged
@@ -1424,6 +1425,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bulletPrefab: {fileID: 179524, guid: e5951eddc168b914bb70c43b5964982f, type: 2}
+--- !u!114 &1526408100
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1526408095}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23c533b960d51544e9836b06c56bc896, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sound: {fileID: 124318, guid: 6325e5e5c2a3faf4eb298c95610e4201, type: 2}
 --- !u!1 &1545142438 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 100014, guid: 8c20c380af461574f99424a22acd34c1, type: 3}
