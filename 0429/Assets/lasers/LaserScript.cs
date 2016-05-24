@@ -30,6 +30,7 @@ public class LaserScript : MonoBehaviour {
         line.enabled = true;
         while (Input.GetButton("Fire2")) //눌러져 있는 동안
         {
+            line.material.mainTextureOffset = new Vector2(0, Time.time);
             Ray ray = new Ray(transform.position, transform.forward);
             RaycastHit hit;
 
