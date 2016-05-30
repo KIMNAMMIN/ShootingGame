@@ -45,6 +45,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Gamecontroller.cs" />
      <Compile Include="Assets\SimpleParticlePack\Scripts\ParticleTester.cs" />
      <Compile Include="Assets\Sound\sbe.cs" />
      <Compile Include="Assets\gui.cs" />
@@ -58,6 +59,7 @@
      <Compile Include="Assets\scripts\DamageReceiver.cs" />
      <Compile Include="Assets\scripts\DestroyParticle.cs" />
      <Compile Include="Assets\scripts\EnemyHit.cs" />
+     <Compile Include="Assets\scripts\Gamecontroller.cs" />
      <Compile Include="Assets\scripts\JoystickToWorld.cs" />
      <Compile Include="Assets\scripts\Karma.cs" />
      <Compile Include="Assets\scripts\Locomotion.cs" />
