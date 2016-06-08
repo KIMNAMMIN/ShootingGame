@@ -4,6 +4,8 @@ using System.Collections;
 public class ScoreManager : MonoBehaviour {
     public static int CurrentScore = 0;
     public Rect ScorePosition;
+  
+    
 	// Use this for initialization
 	void Start () {
         ScorePosition = new Rect(Screen.width - 110, 10, 100, 30);
