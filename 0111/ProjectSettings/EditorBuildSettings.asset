@@ -7,3 +7,7 @@ EditorBuildSettings:
   m_Scenes:
   - enabled: 0
     path: Assets/Scenes/Game.unity
+  - enabled: 1
+    path: Assets/scene0510.unity
+  - enabled: 1
+    path: Assets/1play.unity

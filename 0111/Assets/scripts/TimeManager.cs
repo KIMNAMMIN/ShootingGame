@@ -38,6 +38,14 @@ public class TimeManager : MonoBehaviour {
         myStyle.fontSize = 50;
         if (timeLeft==0) GUI.Label(EndPosition, "GAME OVER",myStyle);
         if (timeLeft==0) GUI.Label(ScorePosition, "그대 점수는" + ScoreManager.CurrentScore.ToString()+"점ㅋ", myStyle);
+        if (timeLeft == 0) if (GUI.Button(new Rect(Screen.width - 1200, 10, 130, 70), "다시시작"))
+            {
+                Application.LoadLevel(Application.loadedLevel);
+                ScoreManager.CurrentScore = 0;
+            }
+                
+            
         GUI.Label(TimePosition, "남은시간:" + timeLeft.ToString());
     }
 }
+

@@ -75,6 +75,7 @@
      <Compile Include="Assets\scripts\TimeManager.cs" />
      <Compile Include="Assets\scripts\gui.cs" />
      <Compile Include="Assets\scripts\playershoot.cs" />
+     <Compile Include="Assets\scripts\restart.cs" />
      <Compile Include="Assets\scripts\sound1dest.cs" />
      <Compile Include="Assets\scripts\sss.cs" />
      <None Include="Assets\StreamingAssets\Cubiquity\VoxelDatabases\CreatedForAssets\Readme.txt" />
